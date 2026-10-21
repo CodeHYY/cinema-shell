@@ -1,0 +1,6 @@
+# 注意：项目站点的 robots.txt 只有放在域名根（codehyy.github.io/robots.txt）才被爬虫读取；放在 /cinema-shell/ 下仅作记录，
+# sitemap 请直接在 Google Search Console / 百度站长 / Bing Webmaster 提交。/r/ 下重定向页已用 meta noindex。
+User-agent: *
+Allow: /
+
+Sitemap: https://codehyy.github.io/cinema-shell/sitemap.xml

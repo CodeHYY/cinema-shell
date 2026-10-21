@@ -1,0 +1,70 @@
+[
+ {
+  "id": "xinghe",
+  "name": "星河影院",
+  "pkg": "com.venture.xinghe",
+  "version": "1.2",
+  "versionCode": "1200",
+  "file": "xinghe-1.2.apk",
+  "size": 12538444,
+  "sha256": "fbfc09b6eddf167329150cb2b37c742e947225b4c379454cf9634f62be892e5e",
+  "minAndroid": "7.0",
+  "page": "https://codehyy.github.io/cinema-shell/xinghe.html",
+  "urls": [
+   "https://github.com/CodeHYY/cinema-shell/releases/download/v1.2/xinghe-1.2.apk",
+   "https://codehyy.github.io/cinema-shell/dl/xinghe-1.2.apk",
+   "https://cdn.jsdelivr.net/gh/CodeHYY/cinema-shell@main/docs/dl/xinghe-1.2.apk"
+  ]
+ },
+ {
+  "id": "chiyan",
+  "name": "赤焰影院",
+  "pkg": "com.venture.chiyan",
+  "version": "1.2",
+  "versionCode": "1200",
+  "file": "chiyan-1.2.apk",
+  "size": 12538452,
+  "sha256": "398253e49e0edf6f27c3ba147fa849e135598663d412d5f362a85aa3658ca032",
+  "minAndroid": "7.0",
+  "page": "https://codehyy.github.io/cinema-shell/chiyan.html",
+  "urls": [
+   "https://github.com/CodeHYY/cinema-shell/releases/download/v1.2/chiyan-1.2.apk",
+   "https://codehyy.github.io/cinema-shell/dl/chiyan-1.2.apk",
+   "https://cdn.jsdelivr.net/gh/CodeHYY/cinema-shell@main/docs/dl/chiyan-1.2.apk"
+  ]
+ },
+ {
+  "id": "yingyu",
+  "name": "映屿",
+  "pkg": "com.venture.yingyu",
+  "version": "1.3",
+  "versionCode": "1300",
+  "file": "yingyu-1.3.apk",
+  "size": 24332440,
+  "sha256": "0e19a3cfe5287849c7093f7a5d5751355c81afd471c8cc4759fd1562bee6be46",
+  "minAndroid": "8.0",
+  "page": "https://codehyy.github.io/cinema-shell/yingyu.html",
+  "urls": [
+   "https://github.com/CodeHYY/cinema-shell/releases/download/v1.2/yingyu-1.3.apk",
+   "https://codehyy.github.io/cinema-shell/dl/yingyu-1.3.apk",
+   "https://cdn.jsdelivr.net/gh/CodeHYY/cinema-shell@main/docs/dl/yingyu-1.3.apk"
+  ]
+ },
+ {
+  "id": "zhuiguang",
+  "name": "追光",
+  "pkg": "com.venture.zhuiguang",
+  "version": "1.6",
+  "versionCode": "1600",
+  "file": "zhuiguang-1.6.apk",
+  "size": 24345321,
+  "sha256": "6fe5c759f03f07d9195c3a6298ea62de42c3e365814efaa4a1cda613dfb81bb1",
+  "minAndroid": "7.0",
+  "page": "https://codehyy.github.io/cinema-shell/zhuiguang.html",
+  "urls": [
+   "https://github.com/CodeHYY/cinema-shell/releases/download/v1.2/zhuiguang-1.6.apk",
+   "https://codehyy.github.io/cinema-shell/dl/zhuiguang-1.6.apk",
+   "https://cdn.jsdelivr.net/gh/CodeHYY/cinema-shell@main/docs/dl/zhuiguang-1.6.apk"
+  ]
+ }
+]

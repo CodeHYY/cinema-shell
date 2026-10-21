@@ -1,0 +1,237 @@
+{
+ "site": "https://codehyy.github.io/cinema-shell/",
+ "note": "渠道归因零 SDK：每个渠道链接是独立静态路径，GitHub traffic popular/paths 能看到它的浏览量。",
+ "patterns": {
+  "product_channel": "https://codehyy.github.io/cinema-shell/r/<product>-<code>.html",
+  "channel_only": "https://codehyy.github.io/cinema-shell/r/<code>.html"
+ },
+ "products": [
+  "xinghe",
+  "chiyan",
+  "yingyu",
+  "zhuiguang"
+ ],
+ "channels": [
+  {
+   "code": "tg",
+   "name": "Telegram",
+   "kind": "社交/频道",
+   "note": "Telegram 频道、群发帖",
+   "urls": {
+    "all": "https://codehyy.github.io/cinema-shell/r/tg.html",
+    "xinghe": "https://codehyy.github.io/cinema-shell/r/xinghe-tg.html",
+    "chiyan": "https://codehyy.github.io/cinema-shell/r/chiyan-tg.html",
+    "yingyu": "https://codehyy.github.io/cinema-shell/r/yingyu-tg.html",
+    "zhuiguang": "https://codehyy.github.io/cinema-shell/r/zhuiguang-tg.html"
+   }
+  },
+  {
+   "code": "dy",
+   "name": "抖音",
+   "kind": "短视频",
+   "note": "抖音主页链接、评论区、私信",
+   "urls": {
+    "all": "https://codehyy.github.io/cinema-shell/r/dy.html",
+    "xinghe": "https://codehyy.github.io/cinema-shell/r/xinghe-dy.html",
+    "chiyan": "https://codehyy.github.io/cinema-shell/r/chiyan-dy.html",
+    "yingyu": "https://codehyy.github.io/cinema-shell/r/yingyu-dy.html",
+    "zhuiguang": "https://codehyy.github.io/cinema-shell/r/zhuiguang-dy.html"
+   }
+  },
+  {
+   "code": "xhs",
+   "name": "小红书",
+   "kind": "内容社区",
+   "note": "小红书笔记/主页",
+   "urls": {
+    "all": "https://codehyy.github.io/cinema-shell/r/xhs.html",
+    "xinghe": "https://codehyy.github.io/cinema-shell/r/xinghe-xhs.html",
+    "chiyan": "https://codehyy.github.io/cinema-shell/r/chiyan-xhs.html",
+    "yingyu": "https://codehyy.github.io/cinema-shell/r/yingyu-xhs.html",
+    "zhuiguang": "https://codehyy.github.io/cinema-shell/r/zhuiguang-xhs.html"
+   }
+  },
+  {
+   "code": "bili",
+   "name": "哔哩哔哩",
+   "kind": "视频",
+   "note": "B 站动态/简介/评论",
+   "urls": {
+    "all": "https://codehyy.github.io/cinema-shell/r/bili.html",
+    "xinghe": "https://codehyy.github.io/cinema-shell/r/xinghe-bili.html",
+    "chiyan": "https://codehyy.github.io/cinema-shell/r/chiyan-bili.html",
+    "yingyu": "https://codehyy.github.io/cinema-shell/r/yingyu-bili.html",
+    "zhuiguang": "https://codehyy.github.io/cinema-shell/r/zhuiguang-bili.html"
+   }
+  },
+  {
+   "code": "kuaishou",
+   "name": "快手",
+   "kind": "短视频",
+   "note": "快手主页/评论",
+   "urls": {
+    "all": "https://codehyy.github.io/cinema-shell/r/kuaishou.html",
+    "xinghe": "https://codehyy.github.io/cinema-shell/r/xinghe-kuaishou.html",
+    "chiyan": "https://codehyy.github.io/cinema-shell/r/chiyan-kuaishou.html",
+    "yingyu": "https://codehyy.github.io/cinema-shell/r/yingyu-kuaishou.html",
+    "zhuiguang": "https://codehyy.github.io/cinema-shell/r/zhuiguang-kuaishou.html"
+   }
+  },
+  {
+   "code": "zhihu",
+   "name": "知乎",
+   "kind": "问答",
+   "note": "知乎回答/专栏",
+   "urls": {
+    "all": "https://codehyy.github.io/cinema-shell/r/zhihu.html",
+    "xinghe": "https://codehyy.github.io/cinema-shell/r/xinghe-zhihu.html",
+    "chiyan": "https://codehyy.github.io/cinema-shell/r/chiyan-zhihu.html",
+    "yingyu": "https://codehyy.github.io/cinema-shell/r/yingyu-zhihu.html",
+    "zhuiguang": "https://codehyy.github.io/cinema-shell/r/zhuiguang-zhihu.html"
+   }
+  },
+  {
+   "code": "tieba",
+   "name": "百度贴吧",
+   "kind": "论坛",
+   "note": "贴吧帖子",
+   "urls": {
+    "all": "https://codehyy.github.io/cinema-shell/r/tieba.html",
+    "xinghe": "https://codehyy.github.io/cinema-shell/r/xinghe-tieba.html",
+    "chiyan": "https://codehyy.github.io/cinema-shell/r/chiyan-tieba.html",
+    "yingyu": "https://codehyy.github.io/cinema-shell/r/yingyu-tieba.html",
+    "zhuiguang": "https://codehyy.github.io/cinema-shell/r/zhuiguang-tieba.html"
+   }
+  },
+  {
+   "code": "v2ex",
+   "name": "V2EX",
+   "kind": "论坛",
+   "note": "V2EX 帖子",
+   "urls": {
+    "all": "https://codehyy.github.io/cinema-shell/r/v2ex.html",
+    "xinghe": "https://codehyy.github.io/cinema-shell/r/xinghe-v2ex.html",
+    "chiyan": "https://codehyy.github.io/cinema-shell/r/chiyan-v2ex.html",
+    "yingyu": "https://codehyy.github.io/cinema-shell/r/yingyu-v2ex.html",
+    "zhuiguang": "https://codehyy.github.io/cinema-shell/r/zhuiguang-v2ex.html"
+   }
+  },
+  {
+   "code": "reddit",
+   "name": "Reddit",
+   "kind": "论坛",
+   "note": "Reddit 帖子",
+   "urls": {
+    "all": "https://codehyy.github.io/cinema-shell/r/reddit.html",
+    "xinghe": "https://codehyy.github.io/cinema-shell/r/xinghe-reddit.html",
+    "chiyan": "https://codehyy.github.io/cinema-shell/r/chiyan-reddit.html",
+    "yingyu": "https://codehyy.github.io/cinema-shell/r/yingyu-reddit.html",
+    "zhuiguang": "https://codehyy.github.io/cinema-shell/r/zhuiguang-reddit.html"
+   }
+  },
+  {
+   "code": "qr1",
+   "name": "二维码 1",
+   "kind": "线下/海报",
+   "note": "线下/海报二维码位 1（具体投放点在 channels.json 的 note 里登记）",
+   "urls": {
+    "all": "https://codehyy.github.io/cinema-shell/r/qr1.html",
+    "xinghe": "https://codehyy.github.io/cinema-shell/r/xinghe-qr1.html",
+    "chiyan": "https://codehyy.github.io/cinema-shell/r/chiyan-qr1.html",
+    "yingyu": "https://codehyy.github.io/cinema-shell/r/yingyu-qr1.html",
+    "zhuiguang": "https://codehyy.github.io/cinema-shell/r/zhuiguang-qr1.html"
+   }
+  },
+  {
+   "code": "qr2",
+   "name": "二维码 2",
+   "kind": "线下/海报",
+   "note": "线下/海报二维码位 2",
+   "urls": {
+    "all": "https://codehyy.github.io/cinema-shell/r/qr2.html",
+    "xinghe": "https://codehyy.github.io/cinema-shell/r/xinghe-qr2.html",
+    "chiyan": "https://codehyy.github.io/cinema-shell/r/chiyan-qr2.html",
+    "yingyu": "https://codehyy.github.io/cinema-shell/r/yingyu-qr2.html",
+    "zhuiguang": "https://codehyy.github.io/cinema-shell/r/zhuiguang-qr2.html"
+   }
+  },
+  {
+   "code": "qr3",
+   "name": "二维码 3",
+   "kind": "线下/海报",
+   "note": "线下/海报二维码位 3",
+   "urls": {
+    "all": "https://codehyy.github.io/cinema-shell/r/qr3.html",
+    "xinghe": "https://codehyy.github.io/cinema-shell/r/xinghe-qr3.html",
+    "chiyan": "https://codehyy.github.io/cinema-shell/r/chiyan-qr3.html",
+    "yingyu": "https://codehyy.github.io/cinema-shell/r/yingyu-qr3.html",
+    "zhuiguang": "https://codehyy.github.io/cinema-shell/r/zhuiguang-qr3.html"
+   }
+  },
+  {
+   "code": "qr4",
+   "name": "二维码 4",
+   "kind": "线下/海报",
+   "note": "线下/海报二维码位 4",
+   "urls": {
+    "all": "https://codehyy.github.io/cinema-shell/r/qr4.html",
+    "xinghe": "https://codehyy.github.io/cinema-shell/r/xinghe-qr4.html",
+    "chiyan": "https://codehyy.github.io/cinema-shell/r/chiyan-qr4.html",
+    "yingyu": "https://codehyy.github.io/cinema-shell/r/yingyu-qr4.html",
+    "zhuiguang": "https://codehyy.github.io/cinema-shell/r/zhuiguang-qr4.html"
+   }
+  },
+  {
+   "code": "qr5",
+   "name": "二维码 5",
+   "kind": "线下/海报",
+   "note": "线下/海报二维码位 5",
+   "urls": {
+    "all": "https://codehyy.github.io/cinema-shell/r/qr5.html",
+    "xinghe": "https://codehyy.github.io/cinema-shell/r/xinghe-qr5.html",
+    "chiyan": "https://codehyy.github.io/cinema-shell/r/chiyan-qr5.html",
+    "yingyu": "https://codehyy.github.io/cinema-shell/r/yingyu-qr5.html",
+    "zhuiguang": "https://codehyy.github.io/cinema-shell/r/zhuiguang-qr5.html"
+   }
+  },
+  {
+   "code": "share",
+   "name": "应用内分享",
+   "kind": "应用内",
+   "note": "App 内「分享」生成的链接",
+   "urls": {
+    "all": "https://codehyy.github.io/cinema-shell/r/share.html",
+    "xinghe": "https://codehyy.github.io/cinema-shell/r/xinghe-share.html",
+    "chiyan": "https://codehyy.github.io/cinema-shell/r/chiyan-share.html",
+    "yingyu": "https://codehyy.github.io/cinema-shell/r/yingyu-share.html",
+    "zhuiguang": "https://codehyy.github.io/cinema-shell/r/zhuiguang-share.html"
+   }
+  },
+  {
+   "code": "forum",
+   "name": "其他论坛/社区",
+   "kind": "论坛",
+   "note": "未单列的论坛、社区、QQ/微信群",
+   "urls": {
+    "all": "https://codehyy.github.io/cinema-shell/r/forum.html",
+    "xinghe": "https://codehyy.github.io/cinema-shell/r/xinghe-forum.html",
+    "chiyan": "https://codehyy.github.io/cinema-shell/r/chiyan-forum.html",
+    "yingyu": "https://codehyy.github.io/cinema-shell/r/yingyu-forum.html",
+    "zhuiguang": "https://codehyy.github.io/cinema-shell/r/zhuiguang-forum.html"
+   }
+  },
+  {
+   "code": "other",
+   "name": "其他",
+   "kind": "其他",
+   "note": "无法归类的来源",
+   "urls": {
+    "all": "https://codehyy.github.io/cinema-shell/r/other.html",
+    "xinghe": "https://codehyy.github.io/cinema-shell/r/xinghe-other.html",
+    "chiyan": "https://codehyy.github.io/cinema-shell/r/chiyan-other.html",
+    "yingyu": "https://codehyy.github.io/cinema-shell/r/yingyu-other.html",
+    "zhuiguang": "https://codehyy.github.io/cinema-shell/r/zhuiguang-other.html"
+   }
+  }
+ ]
+}
