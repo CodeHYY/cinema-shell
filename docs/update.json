@@ -1,1 +1,23 @@
-{"app": "cinema-shell", "versions": {}}
+{
+  "app": "cinema-shell",
+  "versions": {
+    "xinghe": {
+      "versionCode": 99,
+      "versionName": "9.9-test",
+      "notes": "更新弹窗测试",
+      "force": false,
+      "urls": [
+        "https://github.com/CodeHYY/cinema-shell/releases/download/v1.1/xinghe-1.1.apk"
+      ]
+    },
+    "chiyan": {
+      "versionCode": 99,
+      "versionName": "9.9-test",
+      "notes": "更新弹窗测试",
+      "force": false,
+      "urls": [
+        "https://github.com/CodeHYY/cinema-shell/releases/download/v1.1/chiyan-1.1.apk"
+      ]
+    }
+  }
+}
