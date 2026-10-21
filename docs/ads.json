@@ -1,0 +1,6 @@
+{
+  "settings": {"enabled": true, "preroll": true, "pause": true, "endroll": true, "minIntervalSec": 120, "pauseMinIntervalSec": 60, "dailyCap": 30},
+  "ads": [
+    {"id": "house-1", "t": "广告位招商", "b": "播放前 · 暂停 · 片尾，三个位置，换广告不用发版。", "c": "了解详情", "u": "https://github.com/CodeHYY/cinema-shell", "c1": "#1FD1B8", "c2": "#7B3FF2"}
+  ]
+}
