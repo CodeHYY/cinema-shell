@@ -2,21 +2,25 @@
   "app": "cinema-shell",
   "versions": {
     "xinghe": {
-      "versionCode": 99,
-      "versionName": "9.9-test",
-      "notes": "更新弹窗测试",
+      "versionCode": 2,
+      "versionName": "1.1",
+      "notes": "1.1：内置检查更新；广告与更新配置远程下发。",
       "force": false,
       "urls": [
-        "https://github.com/CodeHYY/cinema-shell/releases/download/v1.1/xinghe-1.1.apk"
+        "https://github.com/CodeHYY/cinema-shell/releases/download/v1.1/xinghe-1.1.apk",
+        "https://cdn.jsdelivr.net/gh/CodeHYY/cinema-shell@main/docs/dl/xinghe-1.1.apk",
+        "https://codehyy.github.io/cinema-shell/dl/xinghe-1.1.apk"
       ]
     },
     "chiyan": {
-      "versionCode": 99,
-      "versionName": "9.9-test",
-      "notes": "更新弹窗测试",
+      "versionCode": 2,
+      "versionName": "1.1",
+      "notes": "1.1：内置检查更新；广告与更新配置远程下发。",
       "force": false,
       "urls": [
-        "https://github.com/CodeHYY/cinema-shell/releases/download/v1.1/chiyan-1.1.apk"
+        "https://github.com/CodeHYY/cinema-shell/releases/download/v1.1/chiyan-1.1.apk",
+        "https://cdn.jsdelivr.net/gh/CodeHYY/cinema-shell@main/docs/dl/chiyan-1.1.apk",
+        "https://codehyy.github.io/cinema-shell/dl/chiyan-1.1.apk"
       ]
     }
   }
