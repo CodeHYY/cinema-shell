@@ -3,68 +3,68 @@
   "id": "xinghe",
   "name": "星河影院",
   "pkg": "com.venture.xinghe",
-  "version": "1.2",
-  "versionCode": "1200",
-  "file": "xinghe-1.2.apk",
+  "version": "1.2.2",
+  "versionCode": "1202",
+  "file": "xinghe-1.2.2.apk",
   "size": 12538444,
-  "sha256": "fbfc09b6eddf167329150cb2b37c742e947225b4c379454cf9634f62be892e5e",
+  "sha256": "1e094407545b5a96cca577b8afc0247748e0f3ba9ace3b6791726fc9b40ac5ab",
   "minAndroid": "7.0",
   "page": "https://codehyy.github.io/cinema-shell/xinghe.html",
   "urls": [
-   "https://github.com/CodeHYY/cinema-shell/releases/download/v1.2/xinghe-1.2.apk",
-   "https://codehyy.github.io/cinema-shell/dl/xinghe-1.2.apk",
-   "https://cdn.jsdelivr.net/gh/CodeHYY/cinema-shell@main/docs/dl/xinghe-1.2.apk"
+   "https://github.com/CodeHYY/cinema-shell/releases/download/v1.2.2/xinghe-1.2.2.apk",
+   "https://codehyy.github.io/cinema-shell/dl/xinghe-1.2.2.apk",
+   "https://cdn.jsdelivr.net/gh/CodeHYY/cinema-shell@main/docs/dl/xinghe-1.2.2.apk"
   ]
  },
  {
   "id": "chiyan",
   "name": "赤焰影院",
   "pkg": "com.venture.chiyan",
-  "version": "1.2",
-  "versionCode": "1200",
-  "file": "chiyan-1.2.apk",
+  "version": "1.2.2",
+  "versionCode": "1202",
+  "file": "chiyan-1.2.2.apk",
   "size": 12538452,
-  "sha256": "398253e49e0edf6f27c3ba147fa849e135598663d412d5f362a85aa3658ca032",
+  "sha256": "45ecd4d018da7f5ca345c8f8b1816da8d8cebf2f5b673b747757cc4ded3915ed",
   "minAndroid": "7.0",
   "page": "https://codehyy.github.io/cinema-shell/chiyan.html",
   "urls": [
-   "https://github.com/CodeHYY/cinema-shell/releases/download/v1.2/chiyan-1.2.apk",
-   "https://codehyy.github.io/cinema-shell/dl/chiyan-1.2.apk",
-   "https://cdn.jsdelivr.net/gh/CodeHYY/cinema-shell@main/docs/dl/chiyan-1.2.apk"
+   "https://github.com/CodeHYY/cinema-shell/releases/download/v1.2.2/chiyan-1.2.2.apk",
+   "https://codehyy.github.io/cinema-shell/dl/chiyan-1.2.2.apk",
+   "https://cdn.jsdelivr.net/gh/CodeHYY/cinema-shell@main/docs/dl/chiyan-1.2.2.apk"
   ]
  },
  {
   "id": "yingyu",
   "name": "映屿",
   "pkg": "com.venture.yingyu",
-  "version": "1.3",
-  "versionCode": "1300",
-  "file": "yingyu-1.3.apk",
+  "version": "1.3.2",
+  "versionCode": "1302",
+  "file": "yingyu-1.3.2.apk",
   "size": 24332440,
-  "sha256": "0e19a3cfe5287849c7093f7a5d5751355c81afd471c8cc4759fd1562bee6be46",
+  "sha256": "288c3ecb0b67b2d1ee9836bdb38ec082a16c41381d7ffac78c286f003d3f2827",
   "minAndroid": "8.0",
   "page": "https://codehyy.github.io/cinema-shell/yingyu.html",
   "urls": [
-   "https://github.com/CodeHYY/cinema-shell/releases/download/v1.2/yingyu-1.3.apk",
-   "https://codehyy.github.io/cinema-shell/dl/yingyu-1.3.apk",
-   "https://cdn.jsdelivr.net/gh/CodeHYY/cinema-shell@main/docs/dl/yingyu-1.3.apk"
+   "https://github.com/CodeHYY/cinema-shell/releases/download/v1.2.2/yingyu-1.3.2.apk",
+   "https://codehyy.github.io/cinema-shell/dl/yingyu-1.3.2.apk",
+   "https://cdn.jsdelivr.net/gh/CodeHYY/cinema-shell@main/docs/dl/yingyu-1.3.2.apk"
   ]
  },
  {
   "id": "zhuiguang",
   "name": "追光",
   "pkg": "com.venture.zhuiguang",
-  "version": "1.6",
-  "versionCode": "1600",
-  "file": "zhuiguang-1.6.apk",
-  "size": 24345321,
-  "sha256": "6fe5c759f03f07d9195c3a6298ea62de42c3e365814efaa4a1cda613dfb81bb1",
+  "version": "1.6.2",
+  "versionCode": "1602",
+  "file": "zhuiguang-1.6.2.apk",
+  "size": 24345325,
+  "sha256": "cdcc59ecc1f918ac52e145db1b331b91ac4ade9a4862de3d4e51a26a518e86ae",
   "minAndroid": "7.0",
   "page": "https://codehyy.github.io/cinema-shell/zhuiguang.html",
   "urls": [
-   "https://github.com/CodeHYY/cinema-shell/releases/download/v1.2/zhuiguang-1.6.apk",
-   "https://codehyy.github.io/cinema-shell/dl/zhuiguang-1.6.apk",
-   "https://cdn.jsdelivr.net/gh/CodeHYY/cinema-shell@main/docs/dl/zhuiguang-1.6.apk"
+   "https://github.com/CodeHYY/cinema-shell/releases/download/v1.2.2/zhuiguang-1.6.2.apk",
+   "https://codehyy.github.io/cinema-shell/dl/zhuiguang-1.6.2.apk",
+   "https://cdn.jsdelivr.net/gh/CodeHYY/cinema-shell@main/docs/dl/zhuiguang-1.6.2.apk"
   ]
  }
 ]
