@@ -3,34 +3,34 @@
   "id": "xinghe",
   "name": "星河影院",
   "pkg": "com.venture.xinghe",
-  "version": "1.3.2",
-  "versionCode": "1302",
-  "file": "xinghe-1.3.2.apk",
-  "size": 12556140,
-  "sha256": "eab78b9e91059d3274d287a607341e4cd202f97bb4db412ce2541dcb5b1a0fef",
+  "version": "1.3.3",
+  "versionCode": "1303",
+  "file": "xinghe-1.3.3.apk",
+  "size": 12573520,
+  "sha256": "2c4c50fcd9d33582441e9dc9fb63e273faebe021858226dd07ef46a356cf7676",
   "minAndroid": "7.0",
   "page": "https://codehyy.github.io/cinema-shell/xinghe.html",
   "urls": [
-   "https://github.com/CodeHYY/cinema-shell/releases/download/v1.3.2/xinghe-1.3.2.apk",
-   "https://codehyy.github.io/cinema-shell/dl/xinghe-1.3.2.apk",
-   "https://cdn.jsdelivr.net/gh/CodeHYY/cinema-shell@main/docs/dl/xinghe-1.3.2.apk"
+   "https://github.com/CodeHYY/cinema-shell/releases/download/v1.3.3/xinghe-1.3.3.apk",
+   "https://codehyy.github.io/cinema-shell/dl/xinghe-1.3.3.apk",
+   "https://cdn.jsdelivr.net/gh/CodeHYY/cinema-shell@main/docs/dl/xinghe-1.3.3.apk"
   ]
  },
  {
   "id": "chiyan",
   "name": "赤焰影院",
   "pkg": "com.venture.chiyan",
-  "version": "1.3.2",
-  "versionCode": "1302",
-  "file": "chiyan-1.3.2.apk",
-  "size": 12556148,
-  "sha256": "5a50825047cd8c7d2b37554a1eb21d003e543e16b51ece4f7c8c1bdba7d202ef",
+  "version": "1.3.3",
+  "versionCode": "1303",
+  "file": "chiyan-1.3.3.apk",
+  "size": 12557148,
+  "sha256": "ab58cc19fdfbebcd57eea82fbe86f1c7b2129eb439e6e9607067f1436b942a5f",
   "minAndroid": "7.0",
   "page": "https://codehyy.github.io/cinema-shell/chiyan.html",
   "urls": [
-   "https://github.com/CodeHYY/cinema-shell/releases/download/v1.3.2/chiyan-1.3.2.apk",
-   "https://codehyy.github.io/cinema-shell/dl/chiyan-1.3.2.apk",
-   "https://cdn.jsdelivr.net/gh/CodeHYY/cinema-shell@main/docs/dl/chiyan-1.3.2.apk"
+   "https://github.com/CodeHYY/cinema-shell/releases/download/v1.3.3/chiyan-1.3.3.apk",
+   "https://codehyy.github.io/cinema-shell/dl/chiyan-1.3.3.apk",
+   "https://cdn.jsdelivr.net/gh/CodeHYY/cinema-shell@main/docs/dl/chiyan-1.3.3.apk"
   ]
  },
  {
