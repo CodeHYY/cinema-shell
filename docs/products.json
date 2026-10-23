@@ -3,68 +3,68 @@
   "id": "xinghe",
   "name": "星河影院",
   "pkg": "com.venture.xinghe",
-  "version": "1.2.2",
-  "versionCode": "1202",
-  "file": "xinghe-1.2.2.apk",
-  "size": 12538444,
-  "sha256": "1e094407545b5a96cca577b8afc0247748e0f3ba9ace3b6791726fc9b40ac5ab",
+  "version": "1.3.2",
+  "versionCode": "1302",
+  "file": "xinghe-1.3.2.apk",
+  "size": 12556140,
+  "sha256": "eab78b9e91059d3274d287a607341e4cd202f97bb4db412ce2541dcb5b1a0fef",
   "minAndroid": "7.0",
   "page": "https://codehyy.github.io/cinema-shell/xinghe.html",
   "urls": [
-   "https://github.com/CodeHYY/cinema-shell/releases/download/v1.2.2/xinghe-1.2.2.apk",
-   "https://codehyy.github.io/cinema-shell/dl/xinghe-1.2.2.apk",
-   "https://cdn.jsdelivr.net/gh/CodeHYY/cinema-shell@main/docs/dl/xinghe-1.2.2.apk"
+   "https://github.com/CodeHYY/cinema-shell/releases/download/v1.3.2/xinghe-1.3.2.apk",
+   "https://codehyy.github.io/cinema-shell/dl/xinghe-1.3.2.apk",
+   "https://cdn.jsdelivr.net/gh/CodeHYY/cinema-shell@main/docs/dl/xinghe-1.3.2.apk"
   ]
  },
  {
   "id": "chiyan",
   "name": "赤焰影院",
   "pkg": "com.venture.chiyan",
-  "version": "1.2.2",
-  "versionCode": "1202",
-  "file": "chiyan-1.2.2.apk",
-  "size": 12538452,
-  "sha256": "45ecd4d018da7f5ca345c8f8b1816da8d8cebf2f5b673b747757cc4ded3915ed",
+  "version": "1.3.2",
+  "versionCode": "1302",
+  "file": "chiyan-1.3.2.apk",
+  "size": 12556148,
+  "sha256": "5a50825047cd8c7d2b37554a1eb21d003e543e16b51ece4f7c8c1bdba7d202ef",
   "minAndroid": "7.0",
   "page": "https://codehyy.github.io/cinema-shell/chiyan.html",
   "urls": [
-   "https://github.com/CodeHYY/cinema-shell/releases/download/v1.2.2/chiyan-1.2.2.apk",
-   "https://codehyy.github.io/cinema-shell/dl/chiyan-1.2.2.apk",
-   "https://cdn.jsdelivr.net/gh/CodeHYY/cinema-shell@main/docs/dl/chiyan-1.2.2.apk"
+   "https://github.com/CodeHYY/cinema-shell/releases/download/v1.3.2/chiyan-1.3.2.apk",
+   "https://codehyy.github.io/cinema-shell/dl/chiyan-1.3.2.apk",
+   "https://cdn.jsdelivr.net/gh/CodeHYY/cinema-shell@main/docs/dl/chiyan-1.3.2.apk"
   ]
  },
  {
   "id": "yingyu",
   "name": "映屿",
   "pkg": "com.venture.yingyu",
-  "version": "1.3.2",
-  "versionCode": "1302",
-  "file": "yingyu-1.3.2.apk",
-  "size": 24332440,
-  "sha256": "288c3ecb0b67b2d1ee9836bdb38ec082a16c41381d7ffac78c286f003d3f2827",
+  "version": "1.4.0",
+  "versionCode": "1400",
+  "file": "yingyu-1.4.0.apk",
+  "size": 24348824,
+  "sha256": "a1d1946c1cddb017bb5107ed433eb6b46b623871fc0aedd0dcd3c52cf6037312",
   "minAndroid": "8.0",
   "page": "https://codehyy.github.io/cinema-shell/yingyu.html",
   "urls": [
-   "https://github.com/CodeHYY/cinema-shell/releases/download/v1.2.2/yingyu-1.3.2.apk",
-   "https://codehyy.github.io/cinema-shell/dl/yingyu-1.3.2.apk",
-   "https://cdn.jsdelivr.net/gh/CodeHYY/cinema-shell@main/docs/dl/yingyu-1.3.2.apk"
+   "https://github.com/CodeHYY/cinema-shell/releases/download/v1.4.0-yingyu/yingyu-1.4.0.apk",
+   "https://codehyy.github.io/cinema-shell/dl/yingyu-1.4.0.apk",
+   "https://cdn.jsdelivr.net/gh/CodeHYY/cinema-shell@main/docs/dl/yingyu-1.4.0.apk"
   ]
  },
  {
   "id": "zhuiguang",
   "name": "追光",
   "pkg": "com.venture.zhuiguang",
-  "version": "1.6.2",
-  "versionCode": "1602",
-  "file": "zhuiguang-1.6.2.apk",
-  "size": 24345325,
-  "sha256": "cdcc59ecc1f918ac52e145db1b331b91ac4ade9a4862de3d4e51a26a518e86ae",
+  "version": "1.7.1",
+  "versionCode": "1701",
+  "file": "zhuiguang-1.7.1.apk",
+  "size": 24361705,
+  "sha256": "37e40f2f4c7d91d3924511254545e87e0f70611605f08d13a7db917592dde5b9",
   "minAndroid": "7.0",
   "page": "https://codehyy.github.io/cinema-shell/zhuiguang.html",
   "urls": [
-   "https://github.com/CodeHYY/cinema-shell/releases/download/v1.2.2/zhuiguang-1.6.2.apk",
-   "https://codehyy.github.io/cinema-shell/dl/zhuiguang-1.6.2.apk",
-   "https://cdn.jsdelivr.net/gh/CodeHYY/cinema-shell@main/docs/dl/zhuiguang-1.6.2.apk"
+   "https://github.com/CodeHYY/cinema-shell/releases/download/v1.3.1/zhuiguang-1.7.1.apk",
+   "https://codehyy.github.io/cinema-shell/dl/zhuiguang-1.7.1.apk",
+   "https://cdn.jsdelivr.net/gh/CodeHYY/cinema-shell@main/docs/dl/zhuiguang-1.7.1.apk"
   ]
  }
 ]
