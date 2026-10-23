@@ -3,6 +3,8 @@
 4 款 Android 影视客户端：检索、选集、多线路切换、弹幕、续播。无需注册登录。
 
 > 官方下载页：**https://codehyy.github.io/cinema-shell/**（三条直链自动择优，含安装教程）
+>
+> 更新公告与反馈：Telegram 频道 **https://t.me/yuMovieH**（每次发版附说明与校验值，欢迎在评论区提问）
 
 ## 下载
 
