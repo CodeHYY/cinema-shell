@@ -10,8 +10,8 @@
 
 | 应用 | 版本 | 大小 | 系统要求 | 链接 |
 |---|---|---|---|---|
-| 星河影院 | 1.3.2 | 12.0 MB | Android 7.0+ | [下载页](https://codehyy.github.io/cinema-shell/xinghe.html) · [GitHub 直链](https://github.com/CodeHYY/cinema-shell/releases/download/v1.3.2/xinghe-1.3.2.apk) |
-| 赤焰影院 | 1.3.2 | 12.0 MB | Android 7.0+ | [下载页](https://codehyy.github.io/cinema-shell/chiyan.html) · [GitHub 直链](https://github.com/CodeHYY/cinema-shell/releases/download/v1.3.2/chiyan-1.3.2.apk) |
+| 星河影院 | 1.3.2 | 12.0 MB | Android 7.0+ | [下载页](https://codehyy.github.io/cinema-shell/xinghe.html) · [GitHub 直链](https://github.com/CodeHYY/cinema-shell/releases/download/v1.3.3/xinghe-1.3.3.apk) |
+| 赤焰影院 | 1.3.2 | 12.0 MB | Android 7.0+ | [下载页](https://codehyy.github.io/cinema-shell/chiyan.html) · [GitHub 直链](https://github.com/CodeHYY/cinema-shell/releases/download/v1.3.3/chiyan-1.3.3.apk) |
 | 映屿 | 1.4.0 | 23.2 MB | Android 8.0+ | [下载页](https://codehyy.github.io/cinema-shell/yingyu.html) · [GitHub 直链](https://github.com/CodeHYY/cinema-shell/releases/download/v1.4.0-yingyu/yingyu-1.4.0.apk) |
 | 追光 | 1.7.1 | 23.2 MB | Android 7.0+ | [下载页](https://codehyy.github.io/cinema-shell/zhuiguang.html) · [GitHub 直链](https://github.com/CodeHYY/cinema-shell/releases/download/v1.3.1/zhuiguang-1.7.1.apk) |
 
@@ -58,10 +58,10 @@
 
 ## 更新日志（当前版本）
 
-**星河影院 1.3.2**
+**星河影院 1.3.3**
 - 激励视频卡住时自动恢复
 
-**赤焰影院 1.3.2**
+**赤焰影院 1.3.3**
 - 激励视频卡住时自动恢复
 
 **映屿 1.4.0**

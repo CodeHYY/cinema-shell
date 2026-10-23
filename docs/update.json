@@ -2,25 +2,25 @@
   "app": "cinema-shell",
   "versions": {
     "xinghe": {
-      "versionCode": 1302,
-      "versionName": "1.3.2",
-      "notes": "1.3.2：激励视频卡住时自动恢复。",
+      "versionCode": 1303,
+      "versionName": "1.3.3",
+      "notes": "1.3.3：去掉站点自带的引流弹窗（收藏回家地址/站内通知），打开即看片。",
       "force": false,
       "urls": [
-        "https://github.com/CodeHYY/cinema-shell/releases/download/v1.3.2/xinghe-1.3.2.apk",
-        "https://cdn.jsdelivr.net/gh/CodeHYY/cinema-shell@main/docs/dl/xinghe-1.3.2.apk",
-        "https://codehyy.github.io/cinema-shell/dl/xinghe-1.3.2.apk"
+        "https://github.com/CodeHYY/cinema-shell/releases/download/v1.3.3/xinghe-1.3.3.apk",
+        "https://cdn.jsdelivr.net/gh/CodeHYY/cinema-shell@main/docs/dl/xinghe-1.3.3.apk",
+        "https://codehyy.github.io/cinema-shell/dl/xinghe-1.3.3.apk"
       ]
     },
     "chiyan": {
-      "versionCode": 1302,
-      "versionName": "1.3.2",
-      "notes": "1.3.2：激励视频卡住时自动恢复。",
+      "versionCode": 1303,
+      "versionName": "1.3.3",
+      "notes": "1.3.3：去掉站点自带的引流弹窗（收藏回家地址/站内通知），打开即看片。",
       "force": false,
       "urls": [
-        "https://github.com/CodeHYY/cinema-shell/releases/download/v1.3.2/chiyan-1.3.2.apk",
-        "https://cdn.jsdelivr.net/gh/CodeHYY/cinema-shell@main/docs/dl/chiyan-1.3.2.apk",
-        "https://codehyy.github.io/cinema-shell/dl/chiyan-1.3.2.apk"
+        "https://github.com/CodeHYY/cinema-shell/releases/download/v1.3.3/chiyan-1.3.3.apk",
+        "https://cdn.jsdelivr.net/gh/CodeHYY/cinema-shell@main/docs/dl/chiyan-1.3.3.apk",
+        "https://codehyy.github.io/cinema-shell/dl/chiyan-1.3.3.apk"
       ]
     },
     "yingyu": {
