@@ -40,7 +40,7 @@
   ],
   "sdk": {
     "rev": 1,
-    "enabled": false,
+    "enabled": true,
     "order": [
       "uniad",
       "topon"
