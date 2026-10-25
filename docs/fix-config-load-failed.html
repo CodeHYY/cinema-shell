@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>影视仓 / OK影视 打不开、配置取得失败怎么办？7 步排查</title><meta name="description" content="影视仓、OK影视（FongMi）提示「配置取得失败 / 加载失败」或首页一片空白：按配置地址失效、GitHub 访问不稳、DNS 与系统时间、缓存、版本 7 步逐项排查，附手机推送填写方法与常见问题。"><meta name="keywords" content="影视仓打不开,OK影视配置取得失败,影视仓配置取得失败,TVBox接口失效,影视仓加载失败">
+<meta name="robots" content="index,follow"><meta name="theme-color" content="#0b0f1a"><link rel="canonical" href="https://codehyy.github.io/cinema-shell/fix-config-load-failed.html">
+<link rel="icon" href="favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png"><link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="article"><meta property="og:locale" content="zh_CN"><meta property="og:site_name" content="影视客户端下载中心">
+<meta property="og:title" content="影视仓 / OK影视 打不开、配置取得失败怎么办？7 步排查"><meta property="og:description" content="影视仓、OK影视（FongMi）提示「配置取得失败 / 加载失败」或首页一片空白：按配置地址失效、GitHub 访问不稳、DNS 与系统时间、缓存、版本 7 步逐项排查，附手机推送填写方法与常见问题。"><meta property="og:url" content="https://codehyy.github.io/cinema-shell/fix-config-load-failed.html"><meta property="og:image" content="https://codehyy.github.io/cinema-shell/img/xinghe.png">
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="影视仓 / OK影视 打不开、配置取得失败怎么办？7 步排查"><meta name="twitter:description" content="影视仓、OK影视（FongMi）提示「配置取得失败 / 加载失败」或首页一片空白：按配置地址失效、GitHub 访问不稳、DNS 与系统时间、缓存、版本 7 步逐项排查，附手机推送填写方法与常见问题。">
+<link rel="stylesheet" href="style.css"><style>.cmp{width:100%;border-collapse:collapse;font-size:13px;margin:12px 0}.cmp th,.cmp td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}.cmp th{background:var(--bg3)}.article h2{margin-top:1.6em}.article code{background:var(--bg3);padding:1px 5px;border-radius:5px;word-break:break-all}.article .tbl{overflow-x:auto}</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "影视仓 / OK影视 打不开、配置取得失败怎么办？7 步排查", "description": "影视仓、OK影视（FongMi）提示「配置取得失败 / 加载失败」或首页一片空白：按配置地址失效、GitHub 访问不稳、DNS 与系统时间、缓存、版本 7 步逐项排查，附手机推送填写方法与常见问题。", "inLanguage": "zh-CN", "datePublished": "2026-10-25", "dateModified": "2026-10-25", "mainEntityOfPage": "https://codehyy.github.io/cinema-shell/fix-config-load-failed.html", "author": {"@type": "Organization", "name": "剑透人生工作室"}, "publisher": {"@type": "Organization", "name": "剑透人生工作室"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "配置取得失败是 App 的问题吗？", "acceptedAnswer": {"@type": "Answer", "text": "多数不是。App 只是去下载你填的配置地址，下载失败就会报错。先确认地址在浏览器里能打开。"}}, {"@type": "Question", "name": "为什么同一个地址，手机能用电视不能用？", "acceptedAnswer": {"@type": "Answer", "text": "常见原因是电视盒子的 DNS 解析、系统时间错误，或设备对中文域名支持不好。改 DNS、校准时间、用手机推送。"}}, {"@type": "Question", "name": "清除数据会怎样？", "acceptedAnswer": {"@type": "Answer", "text": "会删掉已填的配置地址和观看历史，需要重新填写；排查时先只清缓存。"}}, {"@type": "Question", "name": "我必须一直找新接口吗？", "acceptedAnswer": {"@type": "Answer", "text": "用这类软件基本如此，地址会随维护者变动而失效。多备几个来源，比依赖一个更稳。"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "下载中心", "item": "https://codehyy.github.io/cinema-shell/"}, {"@type": "ListItem", "position": 2, "name": "影视仓 / OK影视 打不开、配置取得失败怎么办？", "item": "https://codehyy.github.io/cinema-shell/fix-config-load-failed.html"}]}</script></head><body><header class="top"><div class="wrap"><a class="brand" href="index.html">下载中心</a><a href="xinghe.html">星河影院</a><a href="chiyan.html">赤焰影院</a><a href="index.html#install">安装指南</a><a href="index.html#guides">教程</a><a href="index.html#faq">FAQ</a></div></header><main class="wrap article">
+<p class="crumb"><a href="index.html">下载中心</a> › <a href="index.html#guides">教程</a> › 影视仓 / OK影视 打不开、配置取得失败怎么办</p>
+<h1>影视仓 / OK影视 打不开、配置取得失败怎么办？</h1>
+<p class="d">提示「配置取得失败」「加载失败」，或者首页只剩一片空白，大多数时候不是 App 坏了，而是它去下载你填的「配置地址」时没拿到文件。下面按出现概率从高到低排查。</p>
+<p><strong>先说明本站身份：</strong>本站是 星河影院 / 赤焰影院 等 Android 影视客户端的下载页。我们的 App <strong>不内置片源</strong>，内容来自第三方公开站点；<strong>含第三方广告 SDK</strong>，靠广告变现，详见<a href="privacy.html">隐私政策</a>。下面的教程对任何同类软件都适用，是否装我们的 App 由你决定。</p>
+<h2>先弄懂：为什么会「配置取得失败」</h2>
+
+<p>影视仓、OK影视（FongMi 系）、TVBox 这一类软件本身只是一个播放壳，<strong>不带任何片源</strong>。首页的分类、搜索、线路，都来自你在「设置 → 配置地址（或点播）」里填的一个 JSON 配置文件。每次启动或切换配置，App 都要先把这个文件下载回来；下载不到，就会提示配置取得失败，或者直接空白。</p>
+<p>所以排查的思路只有一个：<strong>这个地址，此刻这台设备能不能取到内容？</strong></p>
+<h2>第 1 步：确认地址本身还活着</h2>
+
+<p>最常见的原因是地址失效——维护者停更、域名到期、仓库被删。用手机或电脑浏览器打开同一个地址：</p>
+<ul><li>能看到一大段 JSON 文本（有的接口是加密后的乱码文本，也算正常）：服务器在线，问题在设备这一侧，继续下面的步骤。</li>
+<li>404、拒绝连接、一直转圈：地址已失效，换一个可用的地址即可，不用折腾设备。</li></ul>
+<p>注意：配置地址是填进 App 里用的，不是让你当网页看的；不同设备对中文域名的支持也不一样，中文域名取不到时，改用手机推送（见第 6 步）或换成英文域名的地址。</p>
+<h2>第 2 步：托管在 GitHub 的地址，换成国内更稳的访问方式</h2>
+
+<p>很多配置托管在 GitHub 的 raw 链接上，在国内常常间歇性打不开。同一个文件可以换成 jsDelivr 的形式访问，格式为：</p>
+<p><code>https://cdn.jsdelivr.net/gh/用户名/仓库名@分支名/文件路径</code></p>
+<p>jsDelivr 有缓存，更新会慢一些；也有社区维护的 GitHub 加速代理，但这类代理本身也会失效，不要只依赖一个。</p>
+<h2>第 3 步：检查网络、DNS 和系统时间</h2>
+
+<ul><li><strong>DNS</strong>：把电视盒子（或路由器）的 DNS 手动改成 223.5.5.5 或 119.29.29.29，再重试；运营商默认 DNS 有时解析不到境外 CDN。</li>
+<li><strong>代理 / VPN</strong>：电视或路由器上开着代理的话先关掉试一次。</li>
+<li><strong>系统时间</strong>：老盒子断电久了时间会回到 1970 或 2018 年，HTTPS 证书校验会直接失败，表现就是什么都加载不了。到系统设置里打开「自动获取网络时间」。</li></ul>
+<h2>第 4 步：检查是不是填错了</h2>
+
+<p>地址末尾多了空格、把 https 写成了 http、复制时带上了说明文字，都会取不到。用遥控器输入太容易出错，建议用<strong>手机推送</strong>：电视和手机连同一个 Wi-Fi，在电视端打开推送 / 网页遥控入口，手机扫码或访问页面，把地址粘贴过去再推送，电视端确认即可。</p>
+<h2>第 5 步：清缓存、更新 App</h2>
+
+<p>先在 App 设置或首页里找「清除缓存」，没有的话到系统「应用信息」里点<strong>清除缓存</strong>。先不要点「清除数据」，那会把你填过的地址和历史记录一起删掉。再试一次不行，就把 App 更新到较新的版本——旧版对新格式配置、新的爬虫脚本支持不好，会出现配置能下载但站点全部失败的情况。</p>
+<h2>第 6 步：配置能下载，但站点还是空的</h2>
+
+<p>这是另一类问题：配置文件取到了，但里面的各个站点（爬虫）已失效。表现为首页有分类，点进去没有内容，或搜索全无结果。处理办法：换一个维护更勤的配置、在首页切换站点或线路，不要只留一条。</p>
+<h2>第 7 步：还是不行，把变量一个个拆开</h2>
+
+<p>换一个全新的地址试；换手机热点试（排除家里网络）；换一台设备装同一个 App 试。这三个结果能把问题定位到「地址」「网络」还是「设备」。另外，<strong>配置里可以带爬虫代码，会在你的设备上运行</strong>，只填你信得过的来源。</p>
+<h2>不想折腾配置地址？</h2>
+
+<p>我们的 <a href="xinghe.html">星河影院</a>、<a href="chiyan.html">赤焰影院</a> 打开就能检索，没有「填配置地址」这一步，也就没有「配置取得失败」。代价是：它只做影视检索与播放（换线路、弹幕、续播），没有 TVBox 那种导入自定义配置的能力；片源是第三方公开站点，可能随时变化；含广告 SDK。想对比各家适用场景，看<a href="tvbox-alternatives-compare.html">这篇对比</a>；还没学会填配置的，看<a href="tvbox-vod-source-setup.html">点播源配置教程</a>。安装方法见<a href="index.html#install">安装指南</a>。</p>
+<h2>常见问题</h2>
+<details><summary>配置取得失败是 App 的问题吗？</summary><p>多数不是。App 只是去下载你填的配置地址，下载失败就会报错。先确认地址在浏览器里能打开。</p></details>
+<details><summary>为什么同一个地址，手机能用电视不能用？</summary><p>常见原因是电视盒子的 DNS 解析、系统时间错误，或设备对中文域名支持不好。改 DNS、校准时间、用手机推送。</p></details>
+<details><summary>清除数据会怎样？</summary><p>会删掉已填的配置地址和观看历史，需要重新填写；排查时先只清缓存。</p></details>
+<details><summary>我必须一直找新接口吗？</summary><p>用这类软件基本如此，地址会随维护者变动而失效。多备几个来源，比依赖一个更稳。</p></details>
+<h2>相关教程</h2><ul><li><a href="install-apk-xiaomi-tv.html">小米电视 / 红米电视 怎么安装第三方 APK？</a></li><li><a href="tvbox-vod-source-setup.html">电视盒子点播源怎么配置？配置地址在哪填</a></li><li><a href="tvbox-alternatives-compare.html">TVBox / 影视仓 替代方案对比：怎么选更合适</a></li><li><a href="android7-old-box-lag.html">老电视盒子 Android 7 卡顿怎么办？</a></li></ul><p><a href="index.html">回到下载中心</a> · <a href="xinghe.html">星河影院下载</a> · <a href="chiyan.html">赤焰影院下载</a> · <a href="index.html#install">安装指南</a></p><footer><p><a href="privacy.html">隐私政策</a> · <a href="terms.html">用户协议</a> · <a href="index.html#faq">常见问题</a> · <a href="https://github.com/CodeHYY/cinema-shell/issues" rel="noopener">GitHub 反馈</a></p><p>影视内容来自第三方公开站点，本应用不存储、不上传任何视频；本应用含第三方广告 SDK。运营者 剑透人生工作室 · <a href="mailto:hedd8681@gmail.com">hedd8681@gmail.com</a></p><p>更新于 2026-10-25</p></footer></main></body></html>

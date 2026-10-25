@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>小米电视 / 红米电视 怎么安装第三方 APK？U盘、adb、手机推送 3 种方法</title><meta name="description" content="小米电视、红米电视安装第三方 APK 的 3 种方法：U盘直装、小米电视助手手机推送、adb 命令安装；含「允许未知来源」开启路径、ADB 调试开启方法、安装后找不到图标等常见问题。"><meta name="keywords" content="小米电视安装第三方apk,红米电视安装apk,小米电视U盘安装,小米电视adb安装,小米电视未知来源">
+<meta name="robots" content="index,follow"><meta name="theme-color" content="#0b0f1a"><link rel="canonical" href="https://codehyy.github.io/cinema-shell/install-apk-xiaomi-tv.html">
+<link rel="icon" href="favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png"><link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="article"><meta property="og:locale" content="zh_CN"><meta property="og:site_name" content="影视客户端下载中心">
+<meta property="og:title" content="小米电视 / 红米电视 怎么安装第三方 APK？U盘、adb、手机推送 3 种方法"><meta property="og:description" content="小米电视、红米电视安装第三方 APK 的 3 种方法：U盘直装、小米电视助手手机推送、adb 命令安装；含「允许未知来源」开启路径、ADB 调试开启方法、安装后找不到图标等常见问题。"><meta property="og:url" content="https://codehyy.github.io/cinema-shell/install-apk-xiaomi-tv.html"><meta property="og:image" content="https://codehyy.github.io/cinema-shell/img/xinghe.png">
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="小米电视 / 红米电视 怎么安装第三方 APK？U盘、adb、手机推送 3 种方法"><meta name="twitter:description" content="小米电视、红米电视安装第三方 APK 的 3 种方法：U盘直装、小米电视助手手机推送、adb 命令安装；含「允许未知来源」开启路径、ADB 调试开启方法、安装后找不到图标等常见问题。">
+<link rel="stylesheet" href="style.css"><style>.cmp{width:100%;border-collapse:collapse;font-size:13px;margin:12px 0}.cmp th,.cmp td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}.cmp th{background:var(--bg3)}.article h2{margin-top:1.6em}.article code{background:var(--bg3);padding:1px 5px;border-radius:5px;word-break:break-all}.article .tbl{overflow-x:auto}</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "小米电视 / 红米电视 怎么安装第三方 APK？U盘、adb、手机推送 3 种方法", "description": "小米电视、红米电视安装第三方 APK 的 3 种方法：U盘直装、小米电视助手手机推送、adb 命令安装；含「允许未知来源」开启路径、ADB 调试开启方法、安装后找不到图标等常见问题。", "inLanguage": "zh-CN", "datePublished": "2026-10-25", "dateModified": "2026-10-25", "mainEntityOfPage": "https://codehyy.github.io/cinema-shell/install-apk-xiaomi-tv.html", "author": {"@type": "Organization", "name": "剑透人生工作室"}, "publisher": {"@type": "Organization", "name": "剑透人生工作室"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "小米电视没有「未知来源」选项怎么办？", "acceptedAnswer": {"@type": "Answer", "text": "先到 设置 → 账号与安全 / 账号与隐私 里找；仍没有就用 adb 方法安装，或把 APK 放进 U 盘用文件管理打开，系统一般会在安装时弹出放行提示。"}}, {"@type": "Question", "name": "红米电视和小米电视步骤一样吗？", "acceptedAnswer": {"@type": "Answer", "text": "基本一致，都是同一套系统，只是菜单文案随系统版本略有不同。"}}, {"@type": "Question", "name": "安装第三方应用会影响保修吗？", "acceptedAnswer": {"@type": "Answer", "text": "安装 APK 不涉及修改系统底层，但具体政策以小米官方客服为准，我们不替官方作保证。"}}, {"@type": "Question", "name": "adb 连不上怎么办？", "acceptedAnswer": {"@type": "Answer", "text": "确认电脑与电视在同一网段、电视的 ADB 调试已打开（重启后会关）、没有防火墙拦截 5555 端口。"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "下载中心", "item": "https://codehyy.github.io/cinema-shell/"}, {"@type": "ListItem", "position": 2, "name": "小米电视 / 红米电视 怎么安装第三方 APK？", "item": "https://codehyy.github.io/cinema-shell/install-apk-xiaomi-tv.html"}]}</script></head><body><header class="top"><div class="wrap"><a class="brand" href="index.html">下载中心</a><a href="xinghe.html">星河影院</a><a href="chiyan.html">赤焰影院</a><a href="index.html#install">安装指南</a><a href="index.html#guides">教程</a><a href="index.html#faq">FAQ</a></div></header><main class="wrap article">
+<p class="crumb"><a href="index.html">下载中心</a> › <a href="index.html#guides">教程</a> › 小米电视 / 红米电视 怎么安装第三方 APK？</p>
+<h1>小米电视 / 红米电视 怎么安装第三方 APK？</h1>
+<p class="d">小米电视和红米电视都跑 Android 内核的系统，可以安装应用商店之外的 APK。常用的有三条路：U 盘最稳，手机推送最省事，adb 最灵活。先做第一步的权限，三种方法都需要。</p>
+<p><strong>先说明本站身份：</strong>本站是 星河影院 / 赤焰影院 等 Android 影视客户端的下载页。我们的 App <strong>不内置片源</strong>，内容来自第三方公开站点；<strong>含第三方广告 SDK</strong>，靠广告变现，详见<a href="privacy.html">隐私政策</a>。下面的教程对任何同类软件都适用，是否装我们的 App 由你决定。</p>
+<h2>开始之前：下载对的 APK</h2>
+
+<p>电视用的应用要下<strong>电视版（TV 版）</strong>APK，用遥控器操作才方便；手机版 APK 能装上，但界面按钮小、遥控器很难点。另外确认 APK 的最低系统要求，不低于你电视的 Android 版本，否则会提示「解析包出错」。</p>
+<h2>第一步（都要做）：允许安装未知来源应用</h2>
+
+<p>不同年份的系统菜单文案不一样，常见路径有：</p>
+<ul><li>设置 → <strong>账号与安全</strong> → 允许安装未知来源应用（老一些的系统叫「未知来源」）；</li>
+<li>较新的系统：设置 → <strong>账号与隐私</strong>（或「安全和隐私」）→ 安装未知来源应用。</li></ul>
+<p>把开关打开；有的版本需要分别给「文件管理」「小米电视助手」等具体应用放行。找不到时，在设置里逐级点开「账号与安全」「隐私」相关页面，没有统一入口名。</p>
+<h2>方法一：U 盘安装（兼容性最好）</h2>
+
+<ol><li>电脑上把 APK 复制到 U 盘根目录，文件名改成简短英文，如 <code>app.apk</code>；U 盘建议 FAT32 格式（老电视对 exFAT、NTFS 支持不稳定）。</li>
+<li>U 盘插到电视 USB 口。</li>
+<li>打开电视自带的「文件管理」（有的叫「文件浏览」），进入 U 盘，选中 APK，按遥控器确认键，选「安装」。</li>
+<li>自带文件管理找不到 APK，或没有安装入口，可以先装一个第三方文件管理器再试。</li></ol>
+<h2>方法二：手机推送（小米电视助手）</h2>
+
+<p>手机装「小米电视助手」，手机和电视连<strong>同一个 Wi-Fi</strong>，在助手里找到本地安装（或应用管理）里的安装 APK 功能，选手机里的 APK 文件发送到电视，电视端弹出确认后点确定。不同版本的助手菜单名略有差异，文件放在手机公共目录（如 Download）里更容易被识别，放在微信/QQ 目录里有时扫不到。</p>
+<h2>方法三：adb 命令安装（进阶）</h2>
+
+<ol><li><strong>打开开发者模式</strong>：设置 → 关于 → 找到「产品型号」，用遥控器确认键<strong>连续点击多次</strong>，出现提示即已开启。</li>
+<li>回到 设置 → 账号与安全，会多出<strong>ADB 调试</strong>开关，打开它。（这个开关在电视重启后常会自动关闭，要重新打开。）</li>
+<li>在 设置 → 网络 里查看电视的 IP 地址，例如 192.168.1.20。</li>
+<li>电脑已装好 adb，和电视在同一局域网，执行：<br><code>adb connect 192.168.1.20:5555</code><br><code>adb install -r app.apk</code></li>
+<li>第一次连接电视上会弹授权框，选「允许」。显示 <code>Success</code> 即安装完成。</li></ol>
+<h2>装好了但桌面找不到图标？</h2>
+
+<p>手机版 APK 通常没有电视桌面的启动入口，装成功了也看不到图标。可以到 设置 → 应用 里找到它并打开，或者用第三方桌面 / 应用管理器启动；adb 用户可以执行 <code>adb shell monkey -p 包名 1</code> 启动。</p>
+<h2>常见报错</h2>
+
+<ul><li><strong>解析包出错</strong>：文件没下完整，或 APK 要求的 Android 版本高于电视；重新下载并核对 SHA-256（我们的页面都公布了校验值）。</li>
+<li><strong>签名冲突 / 与已安装应用冲突</strong>：电视上已有同包名不同签名的版本，先卸载旧版再装。</li>
+<li><strong>存储空间不足</strong>：电视存储常常只有 8 GB，清理不用的应用。</li>
+<li><strong>adb 显示 unauthorized</strong>：电视上的授权框没点允许。</li></ul>
+<h2>关于我们的 App 与电视</h2>
+
+<p><a href="xinghe.html">星河影院</a>、<a href="chiyan.html">赤焰影院</a> 的安装包约 12 MB，要求 Android 7.0 及以上，主要按手机使用设计，产品页没有声明针对电视遥控器做过适配，所以放到电视上用，请自己实测。手机上的安装步骤（含小米、华为、OPPO、vivo 的放行菜单）写在<a href="index.html#install">安装指南</a>里。我们的 App 不带片源，含第三方广告 SDK，详见<a href="privacy.html">隐私政策</a>。装好后需要配置点播源的教程见<a href="tvbox-vod-source-setup.html">这里</a>。</p>
+<h2>常见问题</h2>
+<details><summary>小米电视没有「未知来源」选项怎么办？</summary><p>先到 设置 → 账号与安全 / 账号与隐私 里找；仍没有就用 adb 方法安装，或把 APK 放进 U 盘用文件管理打开，系统一般会在安装时弹出放行提示。</p></details>
+<details><summary>红米电视和小米电视步骤一样吗？</summary><p>基本一致，都是同一套系统，只是菜单文案随系统版本略有不同。</p></details>
+<details><summary>安装第三方应用会影响保修吗？</summary><p>安装 APK 不涉及修改系统底层，但具体政策以小米官方客服为准，我们不替官方作保证。</p></details>
+<details><summary>adb 连不上怎么办？</summary><p>确认电脑与电视在同一网段、电视的 ADB 调试已打开（重启后会关）、没有防火墙拦截 5555 端口。</p></details>
+<h2>相关教程</h2><ul><li><a href="fix-config-load-failed.html">影视仓 / OK影视 打不开、配置取得失败怎么办？</a></li><li><a href="tvbox-vod-source-setup.html">电视盒子点播源怎么配置？配置地址在哪填</a></li><li><a href="tvbox-alternatives-compare.html">TVBox / 影视仓 替代方案对比：怎么选更合适</a></li><li><a href="android7-old-box-lag.html">老电视盒子 Android 7 卡顿怎么办？</a></li></ul><p><a href="index.html">回到下载中心</a> · <a href="xinghe.html">星河影院下载</a> · <a href="chiyan.html">赤焰影院下载</a> · <a href="index.html#install">安装指南</a></p><footer><p><a href="privacy.html">隐私政策</a> · <a href="terms.html">用户协议</a> · <a href="index.html#faq">常见问题</a> · <a href="https://github.com/CodeHYY/cinema-shell/issues" rel="noopener">GitHub 反馈</a></p><p>影视内容来自第三方公开站点，本应用不存储、不上传任何视频；本应用含第三方广告 SDK。运营者 剑透人生工作室 · <a href="mailto:hedd8681@gmail.com">hedd8681@gmail.com</a></p><p>更新于 2026-10-25</p></footer></main></body></html>
