@@ -37,5 +37,20 @@
       "c1": "#24292F",
       "c2": "#57606A"
     }
-  ]
+  ],
+  "sdk": {
+    "rev": 1,
+    "enabled": false,
+    "order": [
+      "uniad",
+      "topon"
+    ],
+    "types": {
+      "preroll": true,
+      "reward": true,
+      "episode": true,
+      "exit": true,
+      "splash": true
+    }
+  }
 }
