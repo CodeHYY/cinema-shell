@@ -2,45 +2,45 @@
   "app": "cinema-shell",
   "versions": {
     "xinghe": {
-      "versionCode": 1303,
-      "versionName": "1.3.3",
-      "notes": "1.3.3：去掉站点自带的引流弹窗（收藏回家地址/站内通知），打开即看片。",
+      "versionCode": 1400,
+      "versionName": "1.4.0",
+      "notes": "1.4.0：广告源与广告位可远程切换，新增 Taku 广告源。",
       "force": false,
       "urls": [
-        "https://github.com/CodeHYY/cinema-shell/releases/download/v1.3.3/xinghe-1.3.3.apk",
-        "https://cdn.jsdelivr.net/gh/CodeHYY/cinema-shell@main/docs/dl/xinghe-1.3.3.apk",
-        "https://codehyy.github.io/cinema-shell/dl/xinghe-1.3.3.apk"
+        "https://github.com/CodeHYY/cinema-shell/releases/download/v1.4.0/xinghe-1.4.0.apk",
+        "https://cdn.jsdelivr.net/gh/CodeHYY/cinema-shell@main/docs/dl/xinghe-1.4.0.apk",
+        "https://codehyy.github.io/cinema-shell/dl/xinghe-1.4.0.apk"
       ]
     },
     "chiyan": {
-      "versionCode": 1303,
-      "versionName": "1.3.3",
-      "notes": "1.3.3：去掉站点自带的引流弹窗（收藏回家地址/站内通知），打开即看片。",
+      "versionCode": 1400,
+      "versionName": "1.4.0",
+      "notes": "1.4.0：广告源与广告位可远程切换，新增 Taku 广告源。",
       "force": false,
       "urls": [
-        "https://github.com/CodeHYY/cinema-shell/releases/download/v1.3.3/chiyan-1.3.3.apk",
-        "https://cdn.jsdelivr.net/gh/CodeHYY/cinema-shell@main/docs/dl/chiyan-1.3.3.apk",
-        "https://codehyy.github.io/cinema-shell/dl/chiyan-1.3.3.apk"
+        "https://github.com/CodeHYY/cinema-shell/releases/download/v1.4.0/chiyan-1.4.0.apk",
+        "https://cdn.jsdelivr.net/gh/CodeHYY/cinema-shell@main/docs/dl/chiyan-1.4.0.apk",
+        "https://codehyy.github.io/cinema-shell/dl/chiyan-1.4.0.apk"
       ]
     },
     "yingyu": {
-      "versionCode": 1400,
-      "versionName": "1.4.0",
-      "notes": "1.4.0：新增开屏、看视频免广告二选一、切集和退出插屏。",
+      "versionCode": 1500,
+      "versionName": "1.5.0",
+      "notes": "1.5.0：广告位配置可远程更新。",
       "force": false,
       "urls": [
-        "https://github.com/CodeHYY/cinema-shell/releases/download/v1.4.0-yingyu/yingyu-1.4.0.apk",
-        "https://codehyy.github.io/cinema-shell/dl/yingyu-1.4.0.apk"
+        "https://github.com/CodeHYY/cinema-shell/releases/download/v1.5.0-yingyu/yingyu-1.5.0.apk",
+        "https://codehyy.github.io/cinema-shell/dl/yingyu-1.5.0.apk"
       ]
     },
     "zhuiguang": {
-      "versionCode": 1701,
-      "versionName": "1.7.1",
-      "notes": "1.7.1：新增开屏、看视频免广告二选一、切集和退出插屏、信息流。",
+      "versionCode": 1800,
+      "versionName": "1.8.0",
+      "notes": "1.8.0：广告位配置可远程更新；信息流样式优化。",
       "force": false,
       "urls": [
-        "https://github.com/CodeHYY/cinema-shell/releases/download/v1.3.1/zhuiguang-1.7.1.apk",
-        "https://codehyy.github.io/cinema-shell/dl/zhuiguang-1.7.1.apk"
+        "https://github.com/CodeHYY/cinema-shell/releases/download/v1.8.0-zhuiguang/zhuiguang-1.8.0.apk",
+        "https://codehyy.github.io/cinema-shell/dl/zhuiguang-1.8.0.apk"
       ]
     }
   }
